@@ -1,0 +1,28 @@
+using System;
+
+class Activity1
+{
+    public static void Main(string[] args)
+    {
+        string studentID = "24858961";
+        string fullName = "Kemar C. Lucero";
+        string nickName = "Tado";
+        string gender = "Male";
+        string yearLevel = "2";
+        string homeLocation = "Hippodromo, Holy Trinity St. Cebu City";
+        string course = "BSIT";
+        string mobileNo = "09604237144";
+        string personalEmail = "kemarlucer@gmail";
+
+        Console.WriteLine("Demographic Program by Kemar C. Lucero\n");
+        Console.WriteLine("Student ID: " + studentID);
+        Console.WriteLine("Full Name: " + fullName);
+        Console.WriteLine("Nick Name: " + nickName);
+        Console.WriteLine("Gender: " + gender);
+        Console.WriteLine("Year Level: " + yearLevel);
+        Console.WriteLine("Home Location: " + homeLocation);
+        Console.WriteLine("Course: " + course);
+        Console.WriteLine("Mobile No.: " + mobileNo);
+        Console.WriteLine("Personal Email: " + personalEmail);
+    }
+}
